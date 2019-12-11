@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.desktop {
+	width: auto;
+	height: 1024px;
+	background-color: #fffff;	
+}
+.header {
+	width: auto;
+	height: 50px;
+	background-color:#FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+.minpaku {
+	padding-left: 20px;
+	padding-top: 15px;
+	width: 200px;
+}
+nav {
+text-align: right;
+}
+nav ul {
+margin: 0px ;
+padding-top: 32px;
+}
+nav ul li {
+list-style: none;
+display:inline-block;
+width: 12%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #333;
+font-weight: 600;
+}
+nav ul li a:hover{
+color: #3b82bf;
+}
+a{ 
+   text-decoration: none;
+   font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+   display: block;
+   float:left;
+  }
+
+
+.middle{ 
+   background-color: #fff;
+   border-width: 0px;
+   padding-left: 0px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   width: auto; 
+   height: 580px;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.illust {
+	float:left;
+	padding-left: 140px;
+	margin-top: 0px;
+	padding-top:0px;
+	
+	width: 45%;
+	}
+
+
+.balloon1-right {
+  position: relative;
+  display: inline-block;
+  margin: 60px 10px 10px 50px;
+  padding: 0px 40px 40px 40px;
+  min-width: 120px;
+  max-width: 40%;
+  color: black;
+  font-size: 16px;
+  background: #3b82bf;
+  border-radius: 15px;	
+  font-family: 'Open Sans', sans-serif;
+  word-break: break-all;
+}
+
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #3b82bf;
+}
+
+.balloon1-right p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.illust {
+	width:  460px;
+    height: 460px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    position: absolute;
+    top: 15%;
+    left: 55%;
+	
+	padding: 11px;
+	background-color: #ebaebd;
+　　 box-shadow: 0 3px 18px -4px rgba(0, 0, 0, 0.8);
+
+} 
+.bottom {
+   background-color: #fff;
+   border-width: 0px;
+   padding-left: 40px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   width: auto; 
+   height: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.content2 {
+   font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+   font-weight:60;
+   font-size: 13px;
+   padding-top:2px;
+  }
+
+img {
+	display: block;
+	float: left;
+   }
+
+
+
